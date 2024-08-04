@@ -51,9 +51,6 @@ snarkjs powersoftau verify pot${TAU_SIZE}_final.ptau
 echo "----- Setup -----"
 snarkjs plonk setup ${CIRCUIT_NAME}.r1cs pot${TAU_SIZE}_final.ptau ${CIRCUIT_NAME}_final.zkey
 
-# echo "----- Verify the final zkey -----"
-# snarkjs zkey verify ${CIRCUIT_NAME}.r1cs pot${TAU_SIZE}_final.ptau ${CIRCUIT_NAME}_final.zkey
-
 echo "----- Export the verification key -----"
 snarkjs zkey export verificationkey ${CIRCUIT_NAME}_final.zkey verification_key.json
 
