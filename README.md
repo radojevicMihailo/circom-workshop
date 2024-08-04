@@ -38,13 +38,18 @@ kolo4.circom
 ### PLONK
 * kolo4
 * prednosti:
-    * brzina
+    * kratko i konstantno vreme verifikacije
 * mane:
+    * veći dokazi i sporije se generišu
+* Aztec, ZKSync and Dusk
 
 ### Groth16
 * kolo3
 * prednosti:
+    * konstantna veličina dokaza
 * mane:
+    * potreban je circuit-specific trusted setup
+* ZCash, Looping, Hermez, Celo and Filecoin
 
 
 ## Komande
